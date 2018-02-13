@@ -6,7 +6,7 @@ run `npm install`
 **development mode:**  
 run `npm start`  
 
-**development mode with debuger:**  
+**development mode with debugger:**  
 run `npm run debugger`  
 
 **OPEN**  
