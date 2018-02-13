@@ -1,5 +1,5 @@
 {
-  "name": "mod-17-5",
+  "name": "mod-17-6",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rwart/mod-17-5.git"
+    "url": "git+https://github.com/rwart/mod-17-6.git"
   },
   "author": "rwart",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/rwart/mod-17-5/issues"
+    "url": "https://github.com/rwart/mod-17-6/issues"
   },
-  "homepage": "https://github.com/rwart/mod-17-5#readme",
+  "homepage": "https://github.com/rwart/mod-17-6#readme",
   "devDependencies": {
     "nodemon": "^1.14.11"
   },
