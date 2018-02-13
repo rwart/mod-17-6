@@ -1,0 +1,21 @@
+html(lang="en")
+  head
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(charset="UTF-8")
+    title Login
+    link(rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
+    link(rel="stylesheet" type="text/css" href="/css/grid.css")
+    link(rel="stylesheet" type="text/css" href="/css/style.css")    
+    link(rel="stylesheet" type="text/css" href="/css/loginform.css")
+  body
+    include ./header.html
+    main
+      div.loginform
+        h1.loginform Login
+        if(message)
+          p.loginform=message
+        form.loginform(action="/userlogin" method="post")
+          input.loginform(type="email" id="email" name="email" placeholder="email" minlength="3" maxlength="100" title="Enter email consisting of minimum 3 and maximum 100 characters")
+          input.loginform(type="password" id="password" name="password" placeholder="password" minlength="8" maxlength="50" title="Enter password consisting of minimum 8 and maximum 50 characters")
+          input.loginform(type="submit" value="Submit")
+    include ./footer.html
